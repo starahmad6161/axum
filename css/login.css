@@ -1,0 +1,186 @@
+/*#007bff , #10a09f , #e7ab23*/
+
+
+body
+{
+    background: url("../image/background4.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+/*Start login*/
+.login 
+{
+    padding: 100px 0;
+}
+.login .item
+{
+    border: 1px solid #007bff;
+    background: rgba(0, 123, 255, 0.53);
+    color: #fff;
+    height: 90%;
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 40px;
+    border-radius: 10px 0 0 10px;
+}
+button
+{
+    cursor: pointer;
+}
+.login .form
+{
+    background: #fff;
+    transform: translate(-18px,0);
+    box-shadow: -18px 3px 30px rgba(37, 37, 37, 0.50);
+    overflow: hidden;
+    border-radius: 15px !important;
+    padding: 0;
+    border-radius: 10px;
+}
+@media (max-width: 991px) 
+{
+    .login .form
+    {
+        transform: translate(0,0);
+        background: rgba(255, 255, 255, 0.45);
+        box-shadow: none;
+    }
+    .login .form .f-input input
+    {
+        border-radius: 10px !important;
+    }
+    .login .form .f-input input
+    {
+        background: rgba(0,0,0,.5) !important;
+        color: #fff;
+    }
+    .login .form .f-input label
+    {
+        color: #888 !important;
+    }
+}
+.login .form h1
+{
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.login .item p
+{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.login .item .read-more
+{
+    margin-top: 10px;
+    height: 50px;
+}
+.login .sign-up
+{
+    margin-top: 10px;
+    height: 70px;
+    border-radius: 0;
+}
+.login .form form
+{
+    width:100%;
+    padding: 20px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: auto;
+}
+.login .f-input
+{
+    position: relative;
+    color: #007bff;
+}
+.login .f-input input
+{
+    position: relative;
+    z-index: 2;
+    opacity: .5;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #ddd;
+}
+.login .f-input label
+{
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    color: #222;
+    transition: all ease-in-out .3s;
+    z-index: 1;
+}
+
+.login .f-input input[type="text"]:focus ~ label,
+.login .f-input input[type="email"]:focus ~ label,
+.login .f-input input[type="password"]:focus ~ label,
+.login .f-input input[type="text"]:valid ~ label,
+.login .f-input input[type="email"]:valid ~ label,
+.login .f-input input[type="password"]:valid ~ label
+{
+    top: -23px;
+    color: rgba(0, 123, 255, 0.8);
+    font-size: 13px;
+}
+.login .f-input input:focus
+{
+    opacity: 1;
+}
+.login .button input[type="submit"]
+{
+    display: inline-block;
+    cursor: pointer;
+    height: 50px;
+}
+.login .button label
+{
+    font-size: 13px;
+    color: rgba(0, 123, 255, 0.8);
+    cursor: pointer;
+}
+.login .button label:hover
+{
+    text-decoration: underline;
+}
+
+/*End login*/
+
+/*********** Nav Animation **************/
+
+/*************************/
+
+/*
+// x-Large 
+@media (min-width: 1200px) {
+
+}
+
+// larg  
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+// medium  
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+// small
+@media (max-width: 767px) {
+
+}
+
+// x-small 
+@media (max-width: 480px) {
+
+
+
+
+*/
+
+/*# sourceMappingURL=style.css.map */
